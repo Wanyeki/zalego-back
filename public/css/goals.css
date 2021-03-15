@@ -1,0 +1,45 @@
+.landing img{
+    height: 550px;
+}
+.list{
+    box-shadow: 2px 2px 15px #727781;
+    margin-top: 30px; 
+    
+    padding: 20px;border-radius: 10px;
+    
+}
+.gls{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 15px;
+}
+.header-left{
+    padding-left: 40px;
+}
+.header-left .landing-par{
+    /* font-weight: lighter; */
+    font-size: medium;
+    margin-left: 20px;
+    color: #272E3A;
+}
+.approach .mission,.approach .top-landing-text,.landing-text{
+    color:#272E3A
+}
+.goals{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+@media(max-width:1000px){
+
+    .header-right img{
+        height: 300px;
+    }
+}
+@media(max-width:700px){
+    .header-left{
+        padding: 10px;
+    }
+    .header-right img{
+        height: 350px;
+    }
+}

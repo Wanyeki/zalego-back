@@ -1,0 +1,205 @@
+.contacts_wrapper{
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.contacts_right svg{
+    height:500px;
+    /* width:700px; */
+}
+.inp input{
+    background: transparent;
+    width:350px;
+    height: 45px;
+    font-size: 1.2em;
+    border: 0;
+    margin-top: 50px;
+    color: #272E3A;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px #9fa2aa;
+
+    /* border: 1px solid #272E3A; */
+    padding: 10px;
+}
+/* .inp{
+   border-bottom: 3px solid #737374;
+} */
+.inp input:focus{
+    outline: none;
+}
+.message_form{
+
+}
+.send_me textarea{
+    margin-top: 20px;
+    border:0;
+    box-shadow: 2px 2px 15px #727781;
+    font-size: 1.2em;
+    color: #272E3A;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+
+}
+.send_me .btn{
+    margin-top: 0;
+}
+.send_me input{
+    margin-top: 20px;
+}
+
+.contacts_left{
+    margin-right: 50px;
+}
+.send_me textarea:focus{
+outline: none;
+}
+.contacts_left .missio,.landing-text{
+    color:#272E3A
+}
+@media(max-width:700px){
+    .contacts_wrapper{
+        display:block
+    }
+    .contacts_right svg{
+        height: 350px;
+    }
+    .inp input{
+        font-size: 1.1em;
+        width:70vw;
+        border-width: 1px;
+        margin-top: 30px;
+    }
+    .send_me textarea{
+        font-size: 1.1em;
+        margin-top: 30px;
+        width:90vw
+    }
+
+}
+#bubble1{
+    animation-duration: 36s;
+    animation-name: bubble_movement1;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes bubble_movement1{
+    0%{
+        transform: translateX(0) translateY(0)
+
+    }
+    50%{
+        transform:translateX(-60px) translateY(-250px);
+    }
+    100%{
+        transform:translateX(-20px) translateY(-500px);
+    }
+}
+
+#bubble2{
+    animation-duration: 40s;
+    animation-name: bubble_movement2;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes bubble_movement2{
+    0%{
+        transform: translateX(0) translateY(0)
+
+    }
+    50%{
+        transform:translateX(-60px) translateY(-250px);
+    }
+    100%{
+        transform:translateX(-20px) translateY(-500px);
+    }
+}
+
+#b1,#b2,#b3,#b4,#b5,#b6{
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#b6{
+    animation-name: b6;
+}
+#b2{
+    animation-name: b2;
+}
+#b5{
+    animation-name: b5;
+}
+#b3{
+    animation-name: b3;
+}
+@keyframes b6{
+    0%{
+        transform: translateX(0) translateY(0)
+
+    }
+    50%{
+        transform:translateX(-70px) translateY(-100px);
+    }
+    100%{
+        transform:translateX(100px) translateY(-200px);
+    }
+
+}
+
+@keyframes b2{
+    0%{
+        transform: translateX(0) translateY(0)
+
+    }
+    50%{
+        transform:translateX(60px) translateY(-100px);
+    }
+    100%{
+        transform:translateX(30px) translateY(100px);
+    }
+
+}
+@keyframes b5{
+    0%{
+        transform: translateX(0) translateY(0)
+
+    }
+    50%{
+        transform:translateX(70px) translateY(100px);
+    }
+    100%{
+        transform:translateX(0x) translateY(100px);
+    }
+
+}
+
+@keyframes b3{
+    0%{
+        transform: translateX(0) translateY(0)
+
+    }
+    50%{
+        transform:translateX(-100px) translateY(-80px);
+    }
+    100%{
+        transform:translateX(-100px) translateY(200px);
+    }
+
+}
+#envelope{
+    animation-name: env;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes env{
+    0%{
+        transform:rotateX(0deg);
+    }
+    100%{
+        transform:rotateX(15deg);
+    }
+
+}

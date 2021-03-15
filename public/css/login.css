@@ -1,0 +1,109 @@
+.real-login{
+    display: flex;
+}
+.login-wrapper{
+    width:700px;
+    box-shadow: 1px 1px 10px rgb(121, 120, 120);
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+.login-left{
+    flex-basis: 60%;
+    text-align: center;
+}
+.icons{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.icon-wrapper{
+    padding: 2px 2px 0 2px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    margin-left: 5px;
+}
+.icons span{
+    height: 20px;
+    width: 20px;
+}
+.x-input{
+    box-sizing: border-box;
+    height: 40px;
+    width: 86%;
+    margin-top: 10px;
+    display: block;
+    margin-left: 7%;
+    background: rgb(241, 239, 239);
+    border:1px solid rgb(231, 230, 230);
+    border-radius: 5px;
+    font-size: medium;
+    padding: 5px;
+}
+
+.x-input:focus{
+  outline:none;
+  border:2px solid #FE5454;
+}
+input[type="checkbox"]{
+    color:#FE5454;
+    height: 15px;
+    width: 15px;
+    background: #FE5454;
+
+}
+.feed{
+    background: #FE5454;
+    box-sizing: border-box;
+    color: #fff;
+    padding: 20px;
+    width: 86%;
+    margin-left:7%;
+    border-radius: 10px;
+
+}
+.error{
+    color:red;
+    font-size: x-small;
+    display: block;
+    text-align: left;
+    margin-left: 7%;
+}
+.login-wrapper .btn{
+    padding:8px 30px;
+    border: none;
+    margin:20px 0;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.login-wrapper .btn{
+    background: #fff;
+    color: #FE5454;
+    /* border: 1px solid #FE5454; */
+}
+.activ{
+    background: #FE5454 !important;
+    color: #fff !important;
+}
+::placeholder{
+color: rgb(185, 183, 183);
+}
+.h{
+    width: 100%;
+}
+.login-right{
+    flex-basis: 40%;
+}
+
+.login-right{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2.title{
+    color:#FE5454
+}
